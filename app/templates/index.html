@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Content Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to AI Content Generator</h1>
+    <nav>
+        <a href="{{ url_for('main.generate') }}">Generate</a> |
+        <a href="{{ url_for('main.history') }}">History</a> |
+        <a href="{{ url_for('main.about') }}">About</a>
+    </nav>
+</body>
+</html>
