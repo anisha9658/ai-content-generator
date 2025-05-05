@@ -1,0 +1,30 @@
+# Ignore virtual environments
+venv/
+env/
+ai_generator/Lib/
+__pycache__/
+*.pyc
+.DS_Store
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+
+# Ignore all .dll and .lib files
+*.dll
+*.lib
+# Ignore virtual environments
+ai_generator/Lib/
+ai_generator/Scripts/
+__pycache__/
+*.pyc
+# Ignore virtual environment folder
+ai_generator/
+echo "ai_generator/" > .gitignore
+echo "*.pyc" >> .gitignore
+echo "__pycache__/" >> .gitignore
+
+Dockerfile
+requirements.txt
+
+templates/
