@@ -12,9 +12,6 @@ Generate compelling AI-written content like stories, scripts, podcast episodes, 
 - 🔊 (Optional) Convert content to speech using TTS like Coqui/Bark
 - 🐳 Dockerized for easy deployment
 
-## 🚀 Live Demo
-[🔗 Railway App Link](https://your-live-url.railway.app)
-
 ## 📦 Tech Stack
 
 - **Backend**: Flask, Hugging Face Transformers
